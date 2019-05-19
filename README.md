@@ -1,6 +1,6 @@
 # CTEC 126 - Lab No. 11
 
-# GENERAL
+## GENERAL
 
 This assignment will have you develop an HTML form that gets validated using jQuery/JavaScript. 
 
