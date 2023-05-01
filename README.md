@@ -46,8 +46,9 @@ Submit the words "Ready to Grade"
 ## Grading Rubric
 
 | Item                                                   | Full Marks | Partial Marks | No Marks |
-| :----------------------------------------------------- | :--------- | :------------ | :------- |
-| Form coded correctly and includes all fields           | 35         | 18            | 0        |
-| Submissions rules coded correctly and work as expected | 35         | 18            | 0        |
+|:-------------------------------------------------------|:-----------|:--------------|:---------|
+| Form coded correctly and includes all fields           | 25         | 13            | 0        |
+| Submissions rules coded correctly and work as expected | 25         | 13            | 0        |
 | Error bucket coded correctly and works                 | 15         | 8             | 0        |
 | HTML/CSS/WAVE results as defined in the assignment     | 15         | 8             | 0        |
+| Page styled and looks professional                     | 20         | 10            | 0        |
