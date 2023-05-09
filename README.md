@@ -6,13 +6,16 @@ This assignment will have you develop an HTML form that gets validated using Jav
 
 ## ASSIGNMENT DETAILS
 
-Create an HTML page that has a form on it. The form should have the following attributes and values set:
+Create an HTML page that has a form on it. 
+
+The form must have the following attributes and values set:
 
 - name = "order"
 - id = "order"
 - action = "http://ctec.clark.edu/~belgort/formprocessing/processform.php"
 - method = "POST"
-- Your HTML and CSS must validate and be named coding-challenge-10.html
+- Your HTML and CSS must validate
+- Your HTML file must named project-2.html
 - Your page must pass all WAVE tests and must not contain errors, contrast errors, or alerts
 - Place some text on the form that lets the user know that all fields are required
 - Create the following fields:
@@ -36,7 +39,7 @@ Here are the form submission rules that you must code in JavaScript:
 - If a field is left blank or not selected you should let the user know by placing some text next to the field that lets them know that the field is required. You should also prevent the form from being submitted. You should also place the focus at the first field that is in error.
 - The submit button should also be disabled (and enabled if necessary) when the form is submitted.
 - In addition to letting the user know next to each of the fields that is missing data, create an error bucket (list) at the top of the form listing all of the items that were not filled in using an unordered list.
-- The should must look professional and be styled using CSS.
+- The page must look professional and be styled using CSS (Bootstrap recommended).
 
 ## SUBMISSION
 
