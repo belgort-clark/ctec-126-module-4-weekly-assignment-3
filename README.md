@@ -1,57 +1,64 @@
-# CTEC 126 - Project 2
+# Updated JavaScript Form Validation Assignment with Suggestions for Improvement:
 
-## GENERAL
+## General Instructions
 
-This assignment will have you develop an HTML form that gets validated using JavaScript.
+- Develop a professional looking and attractive HTML form that employs JavaScript validation.
+- Your HTML must be in file named `project_2.html`.
+- Your CSS must be in a folder/file named `css/style.css`.
+- Your JavaScript must be in a folder/file named `js/script.js`.
+- Ensure accessibility using WAVE tests without errors, alerts or contrast issues.
+- The use of the HTML `required` attribute is prohibited.
+- You must provide a set of instructions for the user.
 
-## ASSIGNMENT DETAILS
-
-Create an HTML page that has a form on it. 
+## Form Attributes and Values
 
 The form must have the following attributes and values set:
 
 - name = "order"
 - id = "order"
-- action = "http://ctec.clark.edu/~belgort/formprocessing/processform.php"
+- action = "https://ctec.clark.edu/~belgort/formprocessing/processform.php"
 - method = "POST"
-- Your HTML and CSS must validate
-- Your HTML file must named project-2.html
-- Your page must pass all WAVE tests and must not contain errors, contrast errors, or alerts
-- Place some text on the form that lets the user know that all fields are required
-- Create the following fields:
-  - First Name - text input 20 characters in length max. Use HTML attributes to limit the number of characters.
-  - Last Name - text input 20 characters in length max. Use HTML attributes to limit the number of characters.
-  - Address - text input 40 characters in length nax. Use HTML attributes to limit the number of characters.
-  - City - text input 30 characters in length max. Use HTML attributes to limit the number of characters.
-  - State - select with 5 states as options
-  - Product - select with 5 products. The first product option must be "--Select a Product--"
-  - Quantity - numeric input 5 characters in length. Use HTML attributes to limit the number of characters.
-  - Contact - Radio button with "Can we contact you by phone" that has two buttons "Yes" and "No".
-  - Terms and Conditions - A single checkbox with an "I Accept" option.
-  - Submit button
 
-Here are the form submission rules that you must code in JavaScript:
+## Form Fields
 
-- Your JavaScript code must be placed in a file named script.js in a folder named js.
-- All fields are required and cannot be left blank.
-- The State field requires that the user select an option that is not the default "--Select a State--".
-- The Product field requires that the user select an option that is not the default "--Select a  Product--".
-- If a field is left blank or not selected you should let the user know by placing some text next to the field that lets them know that the field is required. You should also prevent the form from being submitted. You should also place the focus at the first field that is in error.
-- The submit button should also be disabled (and enabled if necessary) when the form is submitted.
-- In addition to letting the user know next to each of the fields that is missing data, create an error bucket (list) at the top of the form listing all of the items that were not filled in using an unordered list.
-- The page must look professional and be styled using CSS (Bootstrap recommended).
+- First Name: Text input, max 20 characters.
+- Last Name: Text input, max 20 characters.
+- Address: Text input, max 40 characters.
+- City: Text input, max 30 characters.
+- State: Select with all 50 states as options.
+- Product: Select with 15 product options.
+- Quantity: Numeric input, 5 characters.
+- Contact: Radio buttons for phone contact preference. Include at least 4 different options for them to select one from.
+- Terms and Conditions: Checkbox for acceptance.
+- Interests: Checkboxes for interests selection. 0 or many options may be selected.
+- Feedback: Textarea for input.
 
-## SUBMISSION
+## Styling and Design
 
-Push your code back to GitHub.
-Submit the words "Ready to Grade" 
+- Ensure the form looks professional and not amateurish.
+- You are encouraged to use Bootstrap, plain old CSS, or Tailwind CSS for styling if desired.
+- Your CSS must be in a folder named css.
+- Enhance styling for mobile responsiveness.
+
+## Form Validation Rules (JavaScript in `js/script.js`)
+
+- All fields are required.
+- Implement error messaging for each validation rule.
+- Real-time validation for immediate feedback.
+- Error bucket that appears above and below the form.
+- Disable the submit button until all fields are filled out.
+- Place focus on the first unfilled field.
+
+## Assignment Submission
+
+- Push code to GitHub and submit with the phrase "Ready to Grade" in Canvas.
 
 ## Grading Rubric
 
-| Item                                                   | Full Marks | Partial Marks | No Marks |
-|:-------------------------------------------------------|:-----------|:--------------|:---------|
-| Form coded correctly and includes all fields           | 25         | 13            | 0        |
-| Submissions rules coded correctly and work as expected | 25         | 13            | 0        |
-| Error bucket coded correctly and works                 | 15         | 8             | 0        |
-| HTML/CSS/WAVE results as defined in the assignment     | 15         | 8             | 0        |
-| Page styled and looks professional                     | 20         | 10            | 0        |
+| Item                                                 | Full Marks | Partial Marks | No Marks |
+|:-----------------------------------------------------|:-----------|:--------------|:---------|
+| Form and field coding accuracy                       | 25         | 12.5          | 0        |
+| Validation rules implemented correctly in JavaScript | 25         | 12.5          | 0        |
+| Error bucket functionality                           | 25         | 12.5          | 0        |
+| HTML/CSS/WAVE compliance                             | 25         | 12.5          | 0        |
+| Professional styling with mobile responsiveness      | 50         | 25            | 0        |
