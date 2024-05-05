@@ -45,10 +45,9 @@ The form must have the following attributes and values set:
 
 - All fields are required.
 - Implement error messaging for each validation rule.
-- Real-time validation for immediate feedback.
 - Error bucket that appears above and below the form.
-- Disable the submit button until all fields are filled out.
-- Place focus on the first unfilled field.
+- Disable the submit button when the form is submitted and checked for validation. Re-enable it after displaying if necessary, the error buckets.
+- Place focus on the first unfilled out form field.
 
 ## Assignment Submission
 
