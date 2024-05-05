@@ -32,6 +32,7 @@ The form must have the following attributes and values set:
 - Terms and Conditions: Checkbox for acceptance.
 - Interests: Checkboxes for interests selection. 0 or many options may be selected.
 - Feedback: Textarea for input.
+- A button to submit the form.
 
 ## Styling and Design
 
