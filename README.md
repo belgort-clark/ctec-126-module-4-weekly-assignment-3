@@ -61,4 +61,4 @@ The form must have the following attributes and values set:
 | Validation rules implemented correctly in JavaScript | 25         | 12.5          | 0        |
 | Error bucket functionality                           | 25         | 12.5          | 0        |
 | HTML/CSS/WAVE compliance                             | 25         | 12.5          | 0        |
-| Professional styling with mobile responsiveness      | 50         | 25            | 0        |
+| Professional styled with CSS                         | 50         | 25            | 0        |
