@@ -1,4 +1,4 @@
-# JavaScript Form Validation Assignment with Suggestions for Improvement:
+# JavaScript Form Validation Assignment
 
 ## General Instructions
 
