@@ -1,12 +1,12 @@
-# Updated JavaScript Form Validation Assignment with Suggestions for Improvement:
+# JavaScript Form Validation Assignment with Suggestions for Improvement:
 
 ## General Instructions
 
-- Develop a professional looking and attractive HTML form that employs JavaScript validation.
-- Your HTML must be in file named `project_2.html`.
+- Develop a professional-looking and attractive HTML form that employs JavaScript validation.
+- Your HTML must be in a file named `project_2.html`.
 - Your CSS must be in a folder/file named `css/style.css`.
 - Your JavaScript must be in a folder/file named `js/script.js`.
-- Ensure accessibility using WAVE tests without errors, alerts or contrast issues.
+- Ensure accessibility using WAVE tests without errors, alerts, or contrast issues.
 - The use of the HTML `required` attribute is prohibited.
 - You must provide a set of instructions for the user.
 
@@ -47,7 +47,7 @@ The form must have the following attributes and values set:
 - Implement error messaging for each validation rule.
 - Error bucket that appears above and below the form.
 - Disable the submit button when the form is submitted and checked for validation. Re-enable it after displaying if necessary, the error buckets.
-- Place focus on the first unfilled out form field.
+- Place focus on the first unfilled-out form field.
 
 ## Assignment Submission
 
