@@ -57,8 +57,8 @@ The form must have the following attributes and values set:
 
 | Item                                                 | Full Marks | Partial Marks | No Marks |
 |:-----------------------------------------------------|:-----------|:--------------|:---------|
-| Form and field coding accuracy                       | 25         | 12.5          | 0        |
-| Validation rules implemented correctly in JavaScript | 25         | 12.5          | 0        |
-| Error bucket functionality                           | 25         | 12.5          | 0        |
+| Form and field coding accuracy                       | 35         | 17.5          | 0        |
+| Validation rules implemented correctly in JavaScript | 40         | 20            | 0        |
+| Error bucket functionality                           | 30         | 15            | 0        |
 | HTML/CSS/WAVE compliance                             | 25         | 12.5          | 0        |
-| Professional styled with CSS                         | 50         | 25            | 0        |
+| Professional styled with CSS                         | 60         | 30            | 0        |
